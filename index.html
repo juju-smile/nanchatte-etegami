@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf7ef">
+  <title>なんちゃって絵手紙</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+  <script src="mobile.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><a class="brand" href="#home" aria-label="なんちゃって絵手紙 ホーム"><span class="brand-mark" aria-hidden="true">絵</span>なんちゃって絵手紙</a><span class="header-note">きもちを、ひと筆。</span></header>
+  <main>
+    <section id="home" class="screen home" aria-labelledby="home-title">
+      <div class="intro"><p class="eyebrow">うまく描くより、たのしく描こう。</p><h1 id="home-title" tabindex="-1">なんちゃって<span>絵手紙</span></h1><p class="catchphrase">ゆっくり何度でも描き直しながら、世界にひとつの絵手紙を楽しみましょう</p><p class="intro-note">色も重ねて塗り直せるから、失敗を気にせず、自分のペースで楽しめます</p>
+      <div class="actions"><a class="button primary" href="#create"><span aria-hidden="true">＋</span> 絵手紙を作る <span class="arrow" aria-hidden="true">→</span></a></div></div>
+      <div class="illustration single-sample"><figure><img src="images/ありがとう.png" alt="縦書きの「ありがとう！」とお花の絵手紙"></figure><p class="illustration-note">ひと筆ずつ、気持ちをかたちに。</p></div>
+    </section>
+    <section id="create" class="screen workspace" aria-labelledby="create-title" hidden>
+      <a class="back" href="#home">← ホームに戻る</a>
+      <div class="page-heading"><h1 id="create-title" tabindex="-1">絵手紙を作る</h1><p id="drawing-help">黒い線で描く → 淡い色をぬる → ことばを添える</p></div>
+      <div class="editor-layout">
+      <aside class="control-panel" aria-label="操作パネル" tabindex="0">
+      <p class="section-guide">▶ 項目をクリックすると開きます。もう一度クリックすると閉じます。</p>
+      <div class="drawing-tools" aria-label="お絵描きの道具">
+        <details class="control-section"><summary>1. 用紙を選ぶ</summary><div class="section-content"><p class="control-help">後からも変えられます</p>        <fieldset class="paper-controls"><legend>用紙の向き</legend><div class="setting-row">
+          <button type="button" data-paper="portrait" aria-pressed="false">▯ 縦</button>
+          <button type="button" data-paper="landscape" aria-pressed="true">▭ 横</button>
+        </div></fieldset>
+          <fieldset class="background-controls"><legend>紙の背景を選ぶ</legend><div class="background-row">
+            <button type="button" data-background="white" aria-pressed="true"><span class="paper-preview paper-white" aria-hidden="true"></span>白い紙</button>
+            <button type="button" data-background="cream" aria-pressed="false"><span class="paper-preview paper-cream" aria-hidden="true"></span>淡いクリーム色</button>
+          </div></fieldset></div></details>
+        <details class="control-section"><summary>2. 絵を描く</summary><div class="section-content">
+        <div class="tool-row" role="group" aria-label="道具を選ぶ">
+          <button type="button" id="pen-tool" aria-pressed="true">黒い線で描く（ペン）</button>
+          <button type="button" id="eraser-tool" aria-pressed="false">消しゴム</button>
+          <button type="button" id="undo-tool" disabled>↶ 元に戻す</button>
+        </div>
+        <p class="control-help draw-tip">あとで色を塗る部分は、黒い線をつなげて、すき間なく囲んでください。線が開いていると色を塗れません。</p>
+        </div></details>
+        <details class="control-section"><summary>3. 淡い色をぬる</summary><div class="section-content">
+        <div class="tool-row" role="group" aria-label="色塗りの道具"><button type="button" id="fill-tool" aria-pressed="false">淡い色をぬる</button></div>
+        <p class="fill-tip">好きな色を選び、黒い線で囲んだ中を押してください。色を重ねることもできます。</p>
+        <fieldset class="fill-controls"><legend>淡い色パレット</legend><div class="color-row" role="group" aria-label="塗る色を選ぶ"><button type="button" class="color-button" data-fill-color="#efa1b1" data-label="薄いピンク" aria-pressed="true" style="--swatch:#efa1b1"><span aria-hidden="true"></span>薄いピンク</button>
+<button type="button" class="color-button" data-fill-color="#e58e83" data-label="薄い赤" aria-pressed="false" style="--swatch:#e58e83"><span aria-hidden="true"></span>薄い赤</button>
+<button type="button" class="color-button" data-fill-color="#efb16f" data-label="薄いオレンジ" aria-pressed="false" style="--swatch:#efb16f"><span aria-hidden="true"></span>薄いオレンジ</button>
+<button type="button" class="color-button" data-fill-color="#efd36f" data-label="薄い黄色" aria-pressed="false" style="--swatch:#efd36f"><span aria-hidden="true"></span>薄い黄色</button>
+<button type="button" class="color-button" data-fill-color="#9cbd87" data-label="薄い緑" aria-pressed="false" style="--swatch:#9cbd87"><span aria-hidden="true"></span>薄い緑</button>
+<button type="button" class="color-button" data-fill-color="#8bbbd4" data-label="薄い水色" aria-pressed="false" style="--swatch:#8bbbd4"><span aria-hidden="true"></span>薄い水色</button>
+<button type="button" class="color-button" data-fill-color="#baa2cf" data-label="薄い紫" aria-pressed="false" style="--swatch:#baa2cf"><span aria-hidden="true"></span>薄い紫</button><button type="button" class="color-button" data-fill-color="#c7a482" data-label="薄茶色" aria-pressed="false" style="--swatch:#c7a482"><span aria-hidden="true"></span>薄茶色</button></div></fieldset>
+        <p id="drawing-status" role="status" aria-live="polite">黒ペンを選んでいます。</p>
+        </div></details>
+        <details class="control-section"><summary>4. 文字を入れる（ことばを添える）</summary><div class="section-content finishing-tools">
+          <div class="text-controls">
+            <label for="letter-input">ことばを添える</label>
+            <p id="text-help" class="control-help">ひとことを入力すると紙の上に表示されます。文字をマウスや指でつかんで動かせます。</p>
+            <p class="control-help">絵文字 🌸😊 や顔文字 (^_^) も入れられます。</p>
+            <div class="text-input-row"><textarea id="letter-input" rows="2" maxlength="100" placeholder="例：いつも、ありがとう。" aria-describedby="text-help"></textarea><div class="delete-text-row"><button type="button" id="delete-text" disabled>文字を削除</button><span class="control-help">入力した文字を消します</span></div></div>
+            <p class="control-help">書き直しも、この欄からできます。</p>
+            <fieldset class="font-controls"><legend>文字の種類</legend><div class="font-row">
+              <button type="button" data-font="brush" aria-pressed="false">筆文字<span class="font-sample" aria-hidden="true">ありがとう</span><span class="font-description">墨色で、温かみのある筆の表情。</span></button>
+              <button type="button" data-font="pop" aria-pressed="false">ポップ文字<span class="font-sample" aria-hidden="true">ありがとう</span><span class="font-description">虹色グラデーションに、白い縁取りと軽い影。</span></button>
+              <button type="button" data-font="hand" aria-pressed="true">手書き文字<span class="font-sample" aria-hidden="true">ありがとう</span><span class="font-description">少し太めの、親しみやすい手書き。</span></button>
+            </div></fieldset>
+            <div class="text-settings">
+              <fieldset class="size-controls slider-controls"><legend>文字の大きさ</legend>
+                <label for="text-size">サイズ <output id="text-size-value" for="text-size">72px</output></label>
+                <input id="text-size" type="range" min="50" max="150" step="1" value="72">
+                <div class="range-labels" aria-hidden="true"><span>小さく 50px</span><span>大きく 150px</span></div>
+              </fieldset>
+              <fieldset class="direction-controls"><legend>文字の向き</legend><div class="setting-row">
+                <button type="button" data-direction="horizontal" aria-pressed="true">横書き</button>
+                <button type="button" data-direction="vertical" aria-pressed="false">縦書き</button>
+              </div></fieldset>
+            </div>
+            <p id="text-fit-note" class="control-help" role="status"></p>
+          </div>
+
+        </div></details>
+      <div class="save-controls"><h2 class="save-heading">5. 保存する</h2><div class="save-action-row"><p id="save-help" class="save-step">①「PNG画像で保存」を押す</p><button type="button" id="save-letter" class="button primary">PNG画像で保存</button></div><p class="save-step">② 保存した画像を確認して「保存を確認してホームへ」を押す</p><p id="save-status" role="status" aria-live="polite"></p><div id="save-options" hidden><div class="after-save"><button type="button" id="finish-letter" class="back">保存を確認してホームへ</button></div></div></div>
+      <p class="workspace-note">ホームに戻ると描いていた絵は消えます。先に保存してください。</p>
+      </div>
+      </aside>
+      <div class="paper-preview-area"><div class="drawing-frame"><div id="letter-paper" class="letter-paper paper-white">
+        <canvas id="paint-space" class="paint-layer" width="1400" height="900" aria-hidden="true"></canvas>
+        <canvas id="drawing-space" class="drawing-space" width="1400" height="900" aria-label="自由に線を描くお絵描きスペース" aria-describedby="drawing-help">お絵描きにはCanvas対応のブラウザが必要です。</canvas>
+        <div class="text-layer"><button type="button" id="letter-text" class="letter-text" aria-label="配置した文字。ドラッグまたは矢印キーで移動できます" hidden></button></div>
+      </div></div></div>
+      </div>
+    </section>
+
+
+  </main>
+  <dialog id="save-preview" aria-labelledby="preview-title"><h2 id="preview-title">この画像を保存しますか？</h2><p>文字や色、用紙の向きを確認してください。</p><img id="preview-image" alt="保存する絵手紙の確認画像"><div class="preview-actions"><button type="button" id="confirm-save" class="button primary">この画像を保存</button><button type="button" id="cancel-save" class="back" autofocus>編集に戻る</button></div></dialog>
+  <dialog id="mobile-review" aria-labelledby="mobile-review-title"><h2 id="mobile-review-title">完成画像を確認</h2><div id="inline-saved-image" hidden><img id="saved-image" alt="完成した絵手紙のPNG画像。長押しして保存できます"></div><div class="review-actions"><button type="button" id="share-saved-image" class="button primary">保存する</button><button type="button" id="review-edit" class="back">編集に戻る</button></div><p id="review-share-help" class="review-help">「保存する」を押し、共有メニューから「画像を保存」を選ぶと、iPhoneの写真に保存できます。</p><p id="review-status" class="review-help" role="status" aria-live="polite"></p><button type="button" id="review-finish" class="back" hidden>保存を確認してホームへ</button></dialog>
+  <dialog id="new-confirm" aria-labelledby="new-confirm-title"><h2 id="new-confirm-title">未保存の変更があります</h2><p>新しく始めると、前の絵・色・文字は消えます。必要なら編集に戻ってPNG画像を保存してください。</p><div class="preview-actions"><button type="button" id="keep-editing" class="back" autofocus>編集を続ける</button><button type="button" id="start-fresh" class="back">変更を破棄して新しく作る</button></div></dialog>
+  <dialog id="home-confirm" aria-labelledby="home-confirm-title"><h2 id="home-confirm-title">まだ保存していません</h2><p>ホームに戻ると、今の絵は消えます。先にPNG画像で保存しますか？</p><div class="preview-actions"><button type="button" id="stay-editing" class="back" autofocus>絵に戻る</button><button type="button" id="discard-home" class="back">保存せずホームへ</button></div></dialog>
+  <footer>上手じゃなくていい。気軽に描いて、ひとこと添えて。</footer>
+</body>
+</html>
