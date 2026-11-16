@@ -1,0 +1,373 @@
+:root{color-scheme:light;--paper:#faf7ef;--ink:#453e35;--muted:#746c60;--green:#48644e;--line:#ded9cd}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Yu Gothic","Meiryo",sans-serif;font-size:20px;line-height:1.8}a{color:inherit}button,a{-webkit-tap-highlight-color:transparent}a:focus-visible,[tabindex="-1"]:focus-visible{outline:4px solid #aa651d;outline-offset:6px}[hidden]{display:none!important}.site-header{max-width:1280px;margin:auto;padding:28px 48px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{text-decoration:none;display:flex;gap:12px;align-items:center;font-weight:bold;font-size:23px;letter-spacing:.06em}.brand-mark{background:#c76e58;color:#fff8ec;display:grid;place-items:center;width:39px;height:39px;border-radius:9px 11px 8px 10px;font-family:serif;font-size:24px;transform:rotate(-5deg)}.header-note{font-size:16px;color:var(--muted);letter-spacing:.12em}main{max-width:1184px;margin:auto;padding:0 48px}.home{min-height:690px;display:grid;grid-template-columns:1.1fr 1fr;align-items:center;gap:65px;padding:55px 0}.eyebrow{font-size:17px;color:var(--green);letter-spacing:.12em;margin:0 0 16px}h1{font-family:"Yu Mincho","Hiragino Mincho ProN",serif;font-size:62px;line-height:1.4;letter-spacing:.04em;margin:0 0 22px;font-weight:600}h1 span{color:var(--green)}.catchphrase{font-family:"Yu Mincho",serif;font-size:27px;line-height:1.7;margin:0 0 20px}.intro-note{font-size:18px;color:var(--muted);margin:0 0 30px}.actions{display:grid;gap:14px;max-width:380px}.button{min-height:70px;padding:13px 24px;display:flex;align-items:center;gap:13px;border-radius:12px;text-decoration:none;font-size:23px;font-weight:bold;border:2px solid var(--green);transition:background .15s,transform .15s}.primary{background:var(--green);color:white;box-shadow:0 4px 0 #344e3a}.secondary{background:#f2f1e5;color:var(--green);border-color:#cdd4c5}.arrow{margin-left:auto}.button:hover{transform:translateY(-2px);filter:brightness(.96)}.gentle-note{font-size:16px;color:var(--muted);margin:22px 0 0}.illustration{position:relative;padding:20px 10px;text-align:center}.peach-dot{position:absolute;width:370px;height:370px;border-radius:50%;background:#f0e4cf;top:90px;left:20px;opacity:.65}.postcard{width:300px;height:420px;background:#fffdf7;position:relative;margin:0 auto;transform:rotate(7deg);border:1px solid #e3dece;box-shadow:4px 14px 25px #65563a17;padding:24px}.postcard-top{font-size:12px;letter-spacing:.2em;text-align:left;color:#8a8170}.stamp{float:right;border:1px dashed #b47561;color:#b47561;padding:3px 9px;font-size:17px}.card-words{position:absolute;top:80px;right:33px;font-family:"Yu Mincho",serif;font-size:28px;line-height:1.7;writing-mode:vertical-rl;letter-spacing:.22em}.flower{position:absolute;left:38px;top:118px;width:140px;height:230px;transform:rotate(-9deg)}.stem{position:absolute;height:172px;width:6px;background:#739268;left:68px;top:54px;border-radius:50%;transform:rotate(8deg)}.leaf{position:absolute;background:#94ab76;width:53px;height:25px;border-radius:90% 0 90% 0;top:145px;left:22px;transform:rotate(40deg)}.leaf-right{left:72px;top:120px;transform:rotate(-20deg)}.petals{position:absolute;left:25px;top:8px;width:90px;height:90px}.petals i{position:absolute;width:43px;height:53px;background:#e7a38d;border-radius:48% 58% 45% 55%;left:25px;top:-10px;transform-origin:22px 55px}.petals i:nth-child(2){transform:rotate(72deg);background:#edaf9b}.petals i:nth-child(3){transform:rotate(144deg)}.petals i:nth-child(4){transform:rotate(216deg);background:#efb9a3}.petals i:nth-child(5){transform:rotate(288deg)}.petals b{position:absolute;left:25px;top:25px;width:36px;height:36px;border-radius:50%;background:#d5a954}.seal{position:absolute;bottom:25px;right:26px;color:#b66b55;border:2px solid #b66b55;padding:0 4px;font:16px serif}.illustration-note{position:relative;font:17px "Yu Mincho",serif;color:#746c60;margin:40px -20px 0;letter-spacing:.06em}footer{text-align:center;border-top:1px solid var(--line);padding:24px;font-size:15px;color:var(--muted);margin:0 48px}.workspace,.gallery{padding:30px 0 45px;min-height:690px}.back{display:inline-flex;align-items:center;min-height:56px;padding:8px 20px;border:1px solid #cdd4c5;border-radius:10px;text-decoration:none;background:#f2f1e5;font-size:20px}.back:hover{background:#e5e9dc}.page-heading{text-align:center;margin:22px 0}.page-heading h1{font-size:40px;margin:0 0 12px}.page-heading p{margin:5px 0;color:var(--muted)}.page-heading .eyebrow{font-size:16px;color:var(--green)}.drawing-frame{max-width:780px;margin:24px auto 0;background:#eee9dc;padding:18px;border-radius:12px}.drawing-space{height:390px;background:white;border:1px solid #dedbd3;box-shadow:0 2px 6px #453e3509}.workspace-note{text-align:center;color:var(--muted);font-size:17px;margin:20px 0 0}.empty-state{text-align:center;padding:58px 20px 75px}.empty-card{display:grid;place-items:center;width:100px;height:125px;margin:0 auto 32px;border:1px solid #d9d6c8;background:#fffdf7;border-radius:3px;transform:rotate(-7deg);font-size:52px;color:#c58b76;box-shadow:4px 5px 0 #eee8da}.empty-state h2{font-size:25px;font-weight:500;margin:0 0 14px}.empty-state p{font-size:19px;color:var(--muted);margin:0}@media(max-width:850px){.site-header{padding:20px 24px}main{padding:0 24px}.home{gap:20px;grid-template-columns:1fr 1fr}h1{font-size:45px}.catchphrase{font-size:23px}.postcard{width:250px;height:365px}.peach-dot{width:270px;height:270px;left:0}.card-words{right:18px}.flower{left:12px}.illustration-note{font-size:14px}footer{margin:0 24px}}@media(max-width:640px){.header-note{display:none}.brand{font-size:20px}.home{display:flex;flex-direction:column;align-items:stretch;padding:40px 0;gap:36px}.intro{text-align:center}h1{font-size:43px}.eyebrow{font-size:15px}.actions{margin:auto}.button{text-align:left;font-size:22px}.intro-note{font-size:17px}.illustration{padding-top:5px}.peach-dot{left:50%;transform:translateX(-50%);top:40px}.illustration-note{margin-top:30px}.page-heading h1{font-size:32px}.drawing-frame{padding:12px}.drawing-space{height:380px}footer{font-size:14px}.workspace,.gallery{min-height:650px}}
+.drawing-tools{max-width:1000px;margin:24px auto 0}.tool-row,.color-row{display:flex;justify-content:center;flex-wrap:wrap;gap:12px}.color-row{margin-top:18px}.drawing-tools button{font:inherit;font-size:20px;font-weight:bold;min-height:58px;padding:10px 22px;border:2px solid #cdd4c5;border-radius:12px;background:#fffdf7;color:var(--ink);cursor:pointer}.drawing-tools button:hover:enabled{background:#e8eddc}.drawing-tools button:focus-visible{outline:4px solid #aa651d;outline-offset:4px}.drawing-tools button[aria-pressed="true"]{border-color:var(--green);box-shadow:0 0 0 2px var(--green);background:#e6eddc}.drawing-tools button:disabled{opacity:.55;cursor:default}.drawing-tools .color-button{display:flex;align-items:center;gap:10px;padding:10px 14px}.color-button span{display:inline-block;width:27px;height:27px;border:1px solid #453e3540;border-radius:50%;background:var(--swatch)}.color-button[aria-pressed="true"] span::after{content:"✓";display:block;color:white;text-align:center;font-size:19px;line-height:25px;text-shadow:0 1px 3px #000,0 0 3px #000}#drawing-status{text-align:center;color:var(--green);font-size:18px;margin:18px 0 0}.workspace .drawing-frame{max-width:1000px;margin-top:16px}.workspace .drawing-space{display:block;width:100%;height:auto;aspect-ratio:14/9;touch-action:none;cursor:crosshair}.drawing-space.erasing{cursor:cell}@media(max-width:640px){.drawing-tools button{font-size:18px;padding:10px 15px}.drawing-tools .color-button{min-width:92px}.tool-row,.color-row{gap:12px}.workspace-note{font-size:16px}}
+
+/* 背景・描画Canvas・文字を独立した3層で表示します。 */
+.finishing-tools{margin:22px 0 16px;padding:22px 24px;background:#f1eee3;border:1px solid var(--line);border-radius:14px}
+.text-controls label,.background-controls legend{font-size:21px;font-weight:bold}
+.control-help{font-size:16px;color:var(--muted);margin:6px 0 12px}
+.text-input-row{display:flex;align-items:center;gap:16px}
+#letter-input{flex:1;min-width:0;width:100%;padding:12px 16px;font:inherit;font-size:22px;line-height:1.6;color:#533b2d;background:#fffdf7;border:2px solid #babdac;border-radius:10px;resize:vertical}
+#letter-input:focus-visible,.letter-text:focus-visible{outline:3px solid #aa651d;outline-offset:3px}
+.background-controls{margin:18px 0 0;padding:14px 0 0;border:0;border-top:1px solid var(--line);min-width:0}
+.background-controls legend{padding:0 12px 0 0}
+.background-row{display:flex;flex-wrap:wrap;gap:12px}
+.background-row button{display:flex;align-items:center;gap:10px}
+.paper-preview{display:inline-block;width:30px;height:32px;border:1px solid #b9b09d;border-radius:3px}
+.paper-white{background-color:#fff;background-image:none}
+.paper-washi{background-color:#f0e5d0;background-image:repeating-linear-gradient(17deg,transparent 0 7px,#b8a17e12 7px 8px,transparent 8px 13px),repeating-linear-gradient(103deg,transparent 0 4px,#fff6 4px 5px,transparent 5px 11px)}
+.paper-cream{background-color:#fff4cf;background-image:none}
+.letter-paper{position:relative;isolation:isolate;border:1px solid #dedbd3;box-shadow:0 2px 6px #453e3509}
+.workspace .letter-paper .drawing-space{background:transparent;border:0;box-shadow:none}
+.text-layer{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+.letter-text{position:absolute;left:10%;top:10%;max-width:90%;padding:4px 6px;border:0;border-radius:4px;background:transparent;color:#533b2d;font-family:"Yu Mincho","Hiragino Mincho ProN","Meiryo",serif;font-size:36px;line-height:1.5;text-align:left;white-space:pre-wrap;overflow-wrap:anywhere;cursor:grab;touch-action:none;user-select:none;pointer-events:auto}
+.letter-text:hover{outline:2px dashed #746c60;outline-offset:-2px}
+.letter-text.dragging{cursor:grabbing;outline:2px dashed #48644e;outline-offset:-2px}
+@media(max-width:640px){.finishing-tools{padding:18px 14px}.text-input-row{align-items:stretch;flex-direction:column;gap:10px}.background-row button{width:100%;justify-content:flex-start}.control-help{font-size:16px}.text-input-row button{align-self:flex-start}}
+
+/* 文字は同じCanvasを画面表示とPNG保存に使い、改行・書体のずれを防ぎます。 */
+.letter-paper{background-origin:padding-box;background-clip:padding-box}
+.font-controls{margin:18px 0 0;padding:0;border:0;min-width:0}
+.font-controls legend{font-size:21px;font-weight:bold;margin-bottom:12px}
+.font-row{display:flex;flex-wrap:wrap;gap:12px}
+.font-row button{min-width:170px;text-align:left}
+.font-sample{display:block;font-size:25px;margin-top:4px}
+.letter-text{max-width:none;padding:0;line-height:0}
+.letter-text canvas{display:block;width:100%;height:100%;pointer-events:none}
+.save-controls{text-align:center;margin:28px auto 0;max-width:650px}
+.save-controls .button{margin:auto;justify-content:center;min-width:280px;cursor:pointer;font-family:inherit}
+.save-controls .button:focus-visible{outline:4px solid #aa651d;outline-offset:5px}
+.save-controls .button:disabled{opacity:.6;cursor:wait}
+#save-status{font-size:18px;color:var(--green)}
+.paper-controls,.size-controls,.direction-controls{padding:0;border:0;margin:0;min-width:0}
+.paper-controls{margin:0 0 24px;padding:18px 22px;background:#f1eee3;border:1px solid var(--line);border-radius:14px}
+.paper-controls legend,.size-controls legend,.direction-controls legend{font-size:21px;font-weight:bold;padding:0 8px 0 0;margin-bottom:12px}
+.setting-row{display:flex;flex-wrap:wrap;gap:12px}
+.setting-row button{min-width:80px}
+.paper-controls .control-help{margin:12px 0 0}
+.text-settings{display:flex;flex-wrap:wrap;gap:22px 36px;margin:20px 0 14px}
+.letter-paper.portrait{max-width:650px;margin-inline:auto}
+.slider-controls{flex:1 1 260px;min-width:0;padding:0;margin:0;border:0}
+.slider-controls legend{font-size:21px;font-weight:bold;margin-bottom:12px}
+.slider-controls label{display:flex;justify-content:space-between;align-items:center;font-size:20px;gap:16px}
+.slider-controls output{font-weight:bold;color:var(--green);font-variant-numeric:tabular-nums}
+.slider-controls input[type="range"]{display:block;width:100%;height:44px;margin:8px 0;accent-color:var(--green);cursor:pointer;appearance:none;background:transparent}
+.slider-controls input[type="range"]::-webkit-slider-runnable-track{height:10px;border-radius:8px;background:#ccd6c4;border:1px solid #9aa78e}
+.slider-controls input[type="range"]::-webkit-slider-thumb{appearance:none;width:28px;height:28px;margin-top:-10px;background:var(--green);border:3px solid #fffdf7;border-radius:50%;box-shadow:0 0 0 1px var(--green)}
+.slider-controls input[type="range"]::-moz-range-track{height:10px;border-radius:8px;background:#ccd6c4;border:1px solid #9aa78e}
+.slider-controls input[type="range"]::-moz-range-thumb{width:24px;height:24px;background:var(--green);border:3px solid #fffdf7;border-radius:50%;box-shadow:0 0 0 1px var(--green)}
+.slider-controls input[type="range"]:focus-visible{outline:3px solid #aa651d;outline-offset:4px;border-radius:6px}
+.range-labels{display:flex;justify-content:space-between;font-size:16px;color:var(--muted);gap:12px}
+#reset-angle{margin-top:12px}
+.beautify-controls{margin:22px 0;padding:20px 24px;border:1px solid #ded3c7;border-radius:14px;background:#f5eee7;min-width:0}
+.beautify-controls legend{font-size:22px;font-weight:bold;padding:0 8px}
+.beautify-options{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:16px}
+.beautify-options button{flex:1 1 280px;text-align:left}
+.beautify-options button span{display:block;font-size:16px;font-weight:normal;margin-top:5px}
+.beautify-controls .control-help{margin:12px 0 0}
+#finish-status{margin:14px 0 0;font-size:18px;color:var(--green)}
+@media(max-width:640px){.font-row button{flex:1;min-width:130px}.font-sample{font-size:23px}}
+
+.stamp-controls{margin:20px 0 0;padding:18px 0 0;border:0;border-top:1px solid var(--line);min-width:0}
+.stamp-controls legend{font-size:21px;font-weight:bold;padding:0 12px 0 0}
+.stamp-controls label{display:block;font-size:20px;margin:8px 0}
+.stamp-input-row{display:flex;align-items:center;flex-wrap:wrap;gap:14px;margin-bottom:14px}
+#stamp-input{font:inherit;font-size:24px;width:200px;max-width:100%;padding:10px 14px;color:#a8463d;background:#fffdf7;border:2px solid #babdac;border-radius:10px}
+#stamp-input:focus-visible,.initial-stamp:focus-visible{outline:3px solid #aa651d;outline-offset:4px}
+.stamp-layer{position:absolute;inset:0;pointer-events:none}
+.initial-stamp{position:absolute;padding:0;border:0;background:transparent;line-height:0;touch-action:none;user-select:none;cursor:grab;pointer-events:auto}
+.initial-stamp canvas{width:100%;height:100%;display:block;pointer-events:none}
+.initial-stamp:hover,.initial-stamp.dragging{outline:2px dashed #a8463d;outline-offset:2px}
+.initial-stamp.dragging{cursor:grabbing}
+
+/* 絵手紙の順序と、線画の下に置く独立した色塗り層。 */
+.making-steps{display:flex;flex-wrap:wrap;justify-content:center;gap:12px 30px;padding:16px 24px 16px 48px;margin:24px 0;background:#edf0e3;border-radius:12px;color:var(--green);font-size:20px;font-weight:bold}
+.making-steps li{padding-right:12px}
+.fill-controls{margin:22px 0 0;padding:18px 22px;border:1px solid var(--line);border-radius:14px;background:#f1eee3;min-width:0}
+.fill-controls legend{font-size:21px;font-weight:bold;padding:0 8px}
+.fill-controls .color-row{margin-top:4px;justify-content:flex-start}
+.paint-layer{position:absolute;inset:0;display:block;width:100%;height:100%;pointer-events:none}
+.workspace .letter-paper .drawing-space{position:relative}
+.drawing-space.filling{cursor:cell}
+@media(max-width:640px){.making-steps{justify-content:flex-start;font-size:18px}.fill-controls{padding:16px 12px}.fill-controls .color-button{min-width:120px}}
+
+/* SIL Open Font License 1.1。フォントファイルとライセンスを同梱し、外部通信なしで使います。 */
+@font-face{font-family:'Mochiy Pop One';src:url('fonts/MochiyPopOne-Regular.ttf') format('truetype');font-style:normal;font-weight:400;font-display:swap}
+.font-description{display:block;font-size:16px;font-weight:normal;margin-top:8px}
+[data-font="pop"] .font-sample{background:linear-gradient(90deg,#eb4960,#ef8730,#d7b620,#42a55b,#32b7c8,#4977d9,#a052bf);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.font-row button{flex:1 1 260px}
+
+/* タッチは用紙・文字の上だけでスクロールを止め、ページのほかの場所は通常どおり動かせます。 */
+.drawing-space,.letter-text{-webkit-user-select:none;-webkit-touch-callout:none;touch-action:none}
+.drawing-frame{overscroll-behavior:contain}
+#save-options{margin-top:18px}
+#save-options .back{margin:6px;font:inherit;cursor:pointer}
+#view-saved-image{touch-action:manipulation}
+button,a{touch-action:manipulation}
+@media(max-width:640px){
+  .site-header{padding:18px 16px}.brand{font-size:clamp(17px,4.9vw,22px);gap:8px}
+  main{padding:0 16px}.home h1{font-size:clamp(30px,8vw,42px)}
+  .catchphrase{font-size:23px}.making-steps{display:grid;grid-template-columns:1fr 1fr;gap:12px 22px;padding-left:38px}
+  .tool-row{display:grid;grid-template-columns:1fr 1fr}.tool-row #pen-tool{grid-column:1 / -1}
+  .tool-row button{min-width:0}.tool-row #undo-tool{grid-column:1 / -1}
+  .fill-controls .color-row{display:grid;grid-template-columns:1fr 1fr}
+  .fill-controls .color-button{min-width:0;padding:10px 8px;gap:7px;font-size:16px}
+  .fill-controls .color-button span{width:24px;height:24px;flex-shrink:0}
+  .font-row{display:grid;grid-template-columns:1fr 1fr}.font-row button{min-width:0;padding:12px 10px}
+  .font-sample{font-size:21px}.font-description{font-size:15px}
+  .paper-controls{padding:16px}.drawing-frame{padding:8px}.finishing-tools{padding:18px 12px}
+  .save-controls .button{min-width:0;width:100%}#save-options .back{display:flex;justify-content:center;margin:10px 0;width:100%}
+  footer{margin:0 16px}.illustration{overflow:hidden}
+}
+
+/* 操作と用紙を分離。表示倍率を変えても作品Canvasの解像度は変えません。 */
+.app-tabs{display:flex;gap:10px;max-width:1500px;margin:auto;padding:12px 24px;flex-wrap:wrap}
+.app-tabs a{flex:1;text-align:center;max-width:260px;min-height:52px;padding:7px 12px;text-decoration:none;border:2px solid #cdd4c5;border-radius:10px;background:#f2f1e5;font-weight:bold}
+.app-tabs a[aria-current="page"]{background:var(--green);color:white;border-color:var(--green)}
+.information{max-width:900px;margin:30px auto 60px;font-size:22px;line-height:2}
+.information h1{font-size:36px}.information li{margin:16px 0}
+.control-section{border:1px solid var(--line);border-radius:12px;background:#f1eee3;margin-bottom:12px}
+.control-section summary{cursor:pointer;font-size:20px;font-weight:bold;padding:14px 12px;min-height:56px;touch-action:manipulation}
+.control-section summary:focus-visible{outline:3px solid #aa651d;outline-offset:2px}
+.section-content{padding:12px}.section-content.finishing-tools{margin:0;border:0;background:transparent}
+.control-panel .drawing-tools{margin:0}.control-panel .paper-controls{margin:0;border:0;padding:0}
+.control-panel .fill-controls{padding:12px 0;border:0}.control-panel .text-input-row{flex-direction:column;align-items:stretch;gap:10px}
+.control-panel .font-row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.control-panel .font-row button{min-width:0;padding:10px 8px}.control-panel .font-sample{font-size:21px}
+.control-panel .font-description{font-size:15px}.control-panel .background-row button{width:100%}
+.control-panel .tool-row,.control-panel .color-row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.control-panel .tool-row #pen-tool{grid-column:1/-1}.control-panel .color-button{min-width:0;font-size:16px;padding:10px 7px;gap:6px}
+.control-panel .color-button span{flex-shrink:0}.control-panel .tool-row button{font-size:18px;padding:10px 6px}
+.control-panel .save-controls{margin:16px 0}.control-panel .save-controls .button{min-width:0;width:100%}
+.control-panel .workspace-note{text-align:left}.paper-preview-area{min-width:0}.mobile-controls-link{display:block;text-align:center;margin:12px 0}
+@media(min-width:960px){
+  body.editing{height:100dvh;display:flex;flex-direction:column;overflow:hidden}
+  .editing .site-header{max-width:none;width:100%;padding:12px 24px;flex-shrink:0}
+  .editing .app-tabs{width:100%;max-width:none;flex-shrink:0;padding:8px 24px}
+  .editing main{max-width:none;width:100%;padding:0 24px;min-height:0;flex:1;display:flex}
+  .editing footer{display:none}.workspace{width:100%}
+  .editing .workspace{min-height:0;padding:0 0 16px;display:flex;flex-direction:column}
+  .editing .workspace > .back{align-self:flex-start;min-height:36px;padding:2px 12px;font-size:16px}
+  .editing .page-heading{text-align:left;margin:6px 0}.editing .page-heading h1{font-size:26px;margin:0}
+  .editing .page-heading .eyebrow,.editing .making-steps{display:none}.editing #drawing-help{font-size:16px;margin:0}
+  .editor-layout{display:grid;grid-template-columns:minmax(320px,35fr) minmax(0,65fr);gap:20px;flex:1;min-height:0}
+  .control-panel{overflow-y:auto;overscroll-behavior:contain;scrollbar-gutter:stable;padding:4px 12px 12px 4px;min-height:0}
+  .paper-preview-area{min-height:0;display:flex}.workspace .drawing-frame{width:100%;height:100%;max-width:none;margin:0;display:flex;align-items:center;justify-content:center;padding:14px;overflow:hidden}
+  .letter-paper,.letter-paper.portrait{max-width:none;flex-shrink:0;margin:0}
+  .mobile-controls-link{display:none}
+}
+@media(max-width:959px){
+  .editor-layout{display:flex;flex-direction:column;gap:12px}.workspace{padding-top:16px}
+  .workspace .page-heading{margin:12px 0}.workspace .page-heading .eyebrow{display:none}
+  .making-steps{font-size:16px;margin:12px 0;padding-top:8px;padding-bottom:8px}
+  .control-panel .workspace-note{font-size:16px}.workspace .drawing-frame{margin:0 auto;padding:8px;width:100%}
+  .app-tabs{padding:10px 16px;gap:6px}.app-tabs a{font-size:17px;padding:8px 4px}
+  .letter-paper.portrait{max-width:440px}.information{font-size:20px}
+}
+
+.mobile-editor-nav{display:none}
+@media(max-width:959px){
+ .mobile-editor-nav{display:flex;gap:10px;position:sticky;top:0;z-index:5;background:var(--paper);padding:8px 0}
+ .mobile-editor-nav button{flex:1;font:inherit;font-size:18px;font-weight:bold;min-height:48px;border:2px solid #cdd4c5;border-radius:10px;background:#edf0e3;color:var(--green);cursor:pointer}
+ .paper-preview-area,.control-panel{scroll-margin-top:72px}.control-panel .workspace-note{display:none}
+}
+
+/* タイトルは狭い画面でも1行。保存前は実際のPNGを確認します。 */
+.home .intro{min-width:0}#home-title{white-space:nowrap;font-size:clamp(24px,3.35vw,44px);letter-spacing:0}.brand{white-space:nowrap}
+#save-preview{width:min(720px,94vw);max-height:92dvh;overflow:auto;border:2px solid #cdd4c5;border-radius:16px;padding:20px;background:var(--paper);color:var(--ink)}
+#save-preview::backdrop{background:#302b2466}#save-preview h2{font-size:24px;margin:0}#save-preview p{font-size:18px}
+#preview-image{display:block;max-width:100%;max-height:50dvh;width:auto;height:auto;margin:12px auto;border:1px solid var(--line)}
+.preview-actions{display:flex;flex-wrap:wrap;gap:14px;justify-content:center}.preview-actions button{font:inherit;cursor:pointer}.preview-actions .button{font-weight:bold;font-size:20px;min-height:56px}.after-save{display:flex;flex-wrap:wrap;justify-content:center}
+@media(max-width:640px){#home-title{font-size:clamp(24px,7.4vw,40px)}.preview-actions button{width:100%;justify-content:center}}
+
+/* ホームの見本は黒い輪郭と、実際の色塗りと同じ淡い2色で描きます。 */
+@font-face{font-family:'Yomogi';src:url('fonts/Yomogi-Regular.ttf') format('truetype');font-style:normal;font-weight:400;font-display:swap}
+[data-font="hand"] .font-sample{color:#594838;-webkit-text-stroke:.7px currentColor}
+.home{min-height:660px;margin:24px 0 36px;padding:46px 48px;gap:36px;border:1px solid #e9e1d2;border-radius:28px;background:#f8f3e9}
+.home .intro{position:relative;z-index:1}
+.home .intro::before{content:"";display:block;width:58px;height:4px;margin:0 0 22px;border-radius:9px;background:#b2be93}
+.home .eyebrow{font-size:16px;letter-spacing:.16em}
+.home h1{margin-bottom:20px}
+.home .catchphrase{color:#4b4b3b}
+.home .illustration{padding:38px 0 24px}
+.home .peach-dot{width:365px;height:365px;top:10px;left:50%;transform:translateX(-50%);background:#e8e5d4;opacity:1}
+.home .postcard{width:min(100%,445px);height:auto;aspect-ratio:1.48;margin:auto;padding:0;transform:rotate(-3deg);border:1px solid #dcd5c7;border-radius:3px;background:#fffdf7;box-shadow:0 16px 36px #50453224,0 2px 5px #50453218}
+.home .postcard-caption{position:absolute;top:7%;left:7%;font-size:11px;letter-spacing:.09em;color:#817c70}
+.home .sample-flower{position:absolute;left:2%;top:14%;width:65%;height:78%;overflow:visible}
+.home .card-words{position:absolute;top:17%;right:8%;margin:0;color:#594838;font-family:'Yomogi','Yu Gothic','Meiryo',sans-serif;font-size:clamp(21px,2.1vw,28px);font-weight:400;line-height:1.1;letter-spacing:.07em;writing-mode:vertical-rl;-webkit-text-stroke:.7px currentColor}
+.home .illustration-note{margin:38px 0 0;font-size:17px;color:#716957;letter-spacing:.1em}
+@media(max-width:850px){.home{padding:34px 28px}.home .peach-dot{width:260px;height:260px}.home .card-words{font-size:clamp(19px,2.7vw,25px)}}
+@media(max-width:640px){.home{margin:16px 0 28px;padding:32px 20px;gap:18px}.home .intro::before{margin:0 auto 18px}.home .illustration{padding:25px 0 14px}.home .peach-dot{width:250px;height:250px;top:6px}.home .postcard{width:min(100%,360px)}.home .card-words{font-size:clamp(18px,5.2vw,25px)}.home .illustration-note{margin-top:28px;font-size:15px}}
+
+.save-heading{font-size:21px;text-align:left}#new-confirm{width:min(620px,94vw);max-height:90dvh;overflow:auto;padding:24px;border:2px solid #cdd4c5;border-radius:16px;background:var(--paper);color:var(--ink)}#new-confirm::backdrop{background:#302b2466}#new-confirm h2{font-size:24px}
+
+/* iPhoneのHTMLビューアーでも外部リンクを開かず、画像そのものを長押しできるようにします。 */
+#saved-image{display:block;width:100%;height:auto;max-height:70dvh;object-fit:contain;margin:14px auto;border:1px solid var(--line);-webkit-touch-callout:default;user-select:auto;touch-action:auto}
+#inline-saved-image .control-help{text-align:left;font-size:18px}
+
+/* 添付された作品を比率どおりに、切り抜かずに表示します。 */
+.home .postcard{aspect-ratio:8/5}
+.home .sample-artwork{display:block;width:100%;height:100%;object-fit:contain}
+.control-panel .tool-row #fill-tool{grid-column:1/-1}
+.sample-pair{display:grid;grid-template-columns:1fr 1fr;align-items:center;min-width:0;isolation:isolate}
+.sample-pair figure{margin:0;min-width:0;grid-row:1}
+.sample-pair .sample-portrait{grid-column:1;width:90%;transform:rotate(-7deg);z-index:1}
+.sample-pair .sample-landscape{grid-column:1/3;width:66%;justify-self:end;transform:translateY(45%) rotate(7deg);z-index:2}
+.sample-pair img{display:block;width:100%;height:auto;border:1px solid #ded9cd;border-radius:3px;box-shadow:0 8px 20px #50453218}
+.sample-pair figcaption{font-size:14px;line-height:1.7;color:var(--muted);margin-top:12px}
+.single-sample figure{width:min(72%,290px);margin:0 auto;transform:rotate(-5deg)}
+.single-sample img{display:block;width:100%;height:auto;border:1px solid #ded9cd;border-radius:3px;box-shadow:0 12px 28px #50453222}
+.home .single-sample .illustration-note{margin-top:30px}
+.mobile-quick-tools{display:none}.mobile-save-note{font-size:17px;line-height:1.8;text-align:left}
+@media(max-width:959px){.paper-preview-area{position:sticky;top:64px;z-index:3;background:var(--paper);padding-bottom:8px}.mobile-quick-tools{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:10px}.mobile-quick-tools button,.mobile-quick-tools select{font:inherit;font-size:16px;min-height:46px;border:2px solid #cdd4c5;border-radius:9px;background:#fffdf7;color:var(--ink)}.mobile-quick-tools button[aria-pressed=true]{background:#e6eddc;border-color:var(--green)}.mobile-quick-tools button:disabled{opacity:.5}.mobile-quick-tools label{grid-column:1/-1;font-size:17px}.mobile-quick-tools select{width:75%}.paper-preview-area .letter-paper.portrait{max-height:43dvh;max-width:28dvh}.paper-preview-area .drawing-frame{max-width:100%}.control-panel{position:relative;z-index:1}}
+@media(max-width:959px){.control-panel button{min-height:48px}.control-panel input[type=range]{min-height:44px}.paper-preview-area{order:-1}.control-panel{width:100%}.workspace .letter-paper{touch-action:none}.sample-pair{gap:14px}.sample-pair figcaption{font-size:13px}.home .sample-pair{padding:16px 0}#letter-input{font-size:20px}.letter-text{touch-action:none}#share-saved-image{min-height:52px;width:100%;justify-content:center}}
+
+/* 操作改善版: 画面上部と説明文を整理し、用紙と操作を見やすくします。 */
+.site-header{padding:12px 28px}
+.home{min-height:min(560px,calc(100dvh - 190px));margin:12px 0 20px;padding:24px 38px;gap:24px}
+.home .intro::before{margin-bottom:12px}
+.home h1{margin-bottom:12px}
+.home .catchphrase{font-size:clamp(21px,2vw,25px);line-height:1.55;margin-bottom:10px}
+.home .intro-note{margin-bottom:18px}
+.home .illustration{padding:8px 0}
+.home .single-sample figure{width:min(58%,245px)}
+.home .single-sample .illustration-note{margin-top:15px}
+.home .button{min-height:58px;max-width:320px;font-size:21px}
+.fill-tip{margin:8px 0 4px;color:var(--green);font-size:16px;font-weight:bold;line-height:1.5}
+.control-panel .font-description{display:none}
+.control-panel .font-sample{margin-top:2px}
+.control-panel .control-help{line-height:1.5}
+.save-controls{margin-top:12px}
+.save-heading{margin:0 0 4px}
+.save-controls .button{min-height:54px}
+.mobile-save-note{font-size:16px;line-height:1.5;margin:8px 0}
+#home-confirm{width:min(520px,94vw);max-height:90dvh;overflow:auto;border:2px solid #cdd4c5;border-radius:16px;background:var(--paper);color:var(--ink);padding:20px}
+#home-confirm::backdrop{background:#302b2466}
+#home-confirm h2{font-size:24px;margin:0}
+@media(min-width:960px){
+  .editing .site-header{padding:8px 20px}
+  .editing main{padding:0 16px}
+  .editing .workspace{padding-bottom:8px}
+  .editing .workspace > .back{min-height:34px}
+  .editing .page-heading{margin:0 0 4px}
+  .editing .page-heading h1{font-size:25px}
+  .editing .editor-layout{gap:12px}
+  .editing .control-panel{padding:0 8px 8px 0}
+  .control-section{margin-bottom:7px}
+  .control-section summary{min-height:48px;padding:8px 11px;font-size:18px}
+  .section-content{padding:9px}
+  .control-panel .control-help{margin:2px 0 6px;font-size:15px}
+  .control-panel .tool-row,.control-panel .color-row,.control-panel .font-row{gap:7px}
+  .control-panel .drawing-tools button{min-height:48px;padding:6px 8px;font-size:17px}
+  .control-panel .font-row button{padding:7px 6px}
+  .control-panel .background-row button{min-height:49px}
+  .control-panel .fill-controls{padding:5px 0}
+  .control-panel .save-controls{margin:8px 0}
+}
+@media(max-width:959px){
+  .site-header{padding:10px 16px}
+  .workspace{padding-top:8px}
+  .workspace .page-heading{margin:4px 0 8px}
+  .paper-preview-area{top:58px}
+  .mobile-fill-tip{grid-column:1/-1;margin:0;color:var(--green);font-size:15px;font-weight:bold;line-height:1.35}
+  .home{margin:8px 0 20px;padding:22px 20px;gap:14px;min-height:0}
+  .home .single-sample figure{width:min(58%,205px)}
+  .home .illustration-note{margin-top:12px}
+}
+
+/* 操作項目は閉じたまま見渡せる高さにし、開いた中も指で押せる寸法に保ちます。 */
+.section-guide{margin:2px 0 9px;color:var(--green);font-size:16px;line-height:1.45;font-weight:bold}
+.control-panel .control-help{color:#585248}
+.control-panel .control-section{margin-bottom:7px}
+.control-panel .control-section summary{min-height:46px;padding:7px 10px;font-size:18px}
+.control-panel .section-content{padding:8px}
+.control-panel .drawing-tools button{min-height:44px;padding:5px 8px;font-size:16px}
+.control-panel .tool-row,.control-panel .color-row{gap:6px}
+.control-panel .background-row button{min-height:44px}
+.control-panel .font-row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+.control-panel .font-row button{min-width:0;min-height:50px;padding:5px 4px;font-size:15px;line-height:1.35}
+.control-panel .font-sample{font-size:18px;white-space:nowrap}
+.control-panel #delete-text{align-self:flex-start;width:auto;min-height:44px;padding:5px 12px;font-size:16px}
+.control-panel #drawing-status{font-size:15px;line-height:1.4;margin:7px 0 0;text-align:left}
+.control-panel .fill-tip{font-size:16px;line-height:1.45}
+.control-panel .save-controls{text-align:left}
+.save-step{font-size:16px;line-height:1.45;margin:5px 0;color:#585248}
+.save-controls .button{min-height:48px;font-size:18px;padding:7px 14px}
+#save-status{font-size:16px;line-height:1.45;margin:6px 0}
+#save-status:empty{display:none}
+.control-panel .workspace-note{font-size:15px;line-height:1.45;margin:9px 0 0;color:#585248}
+@media(max-width:959px){
+  .control-panel .drawing-tools button{min-height:44px}
+  .control-panel .font-row button{min-height:50px}
+  .control-panel #delete-text{min-height:44px}
+  .mobile-fill-tip{font-size:15px;line-height:1.35}
+}
+
+/* 操作説明の見た目を揃え、文字と保存の欄をコンパクトにします。 */
+.control-panel .control-help,.control-panel .fill-tip,.control-panel .save-step,.control-panel .workspace-note,.mobile-fill-tip{
+  color:#585248;font-family:"Yu Gothic","Meiryo",sans-serif;font-size:16px;font-weight:400;line-height:1.5
+}
+.control-panel .draw-tip,.control-panel .fill-tip{margin:6px 0 2px}
+.control-panel #drawing-status{margin:4px 0 0}
+.control-panel #drawing-status:empty{display:none}
+.control-panel .text-controls .control-help{margin:2px 0 4px}
+.control-panel .text-input-row{gap:5px}
+.control-panel #letter-input{padding:8px 12px;line-height:1.4}
+.control-panel .delete-text-row{display:flex;align-items:center;flex-wrap:wrap;gap:8px}
+.control-panel .delete-text-row .control-help{margin:0}
+.control-panel .font-controls{margin-top:8px}
+.control-panel .font-controls legend{margin-bottom:5px}
+.control-panel .text-settings{margin:10px 0 5px;gap:12px}
+.control-panel .save-action-row{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:10px;margin:6px 0}
+.control-panel .save-action-row .save-step{margin:0}
+.control-panel .save-action-row .button{width:auto;min-width:190px;max-width:220px;margin:0;padding:7px 12px}
+.control-panel .save-controls .save-step{margin-top:5px}
+.control-panel .save-controls .after-save{justify-content:flex-start}
+@media(max-width:959px){
+  .control-panel .save-action-row{grid-template-columns:1fr;gap:5px}
+  .control-panel .save-action-row .button{width:100%;max-width:none;min-width:0;min-height:48px}
+}
+
+/* 操作説明は全項目で同じ濃さにします。 */
+.control-panel .control-help,
+.control-panel .fill-tip,
+.control-panel .save-step,
+.control-panel .workspace-note,
+.control-panel .section-guide,
+.control-panel #drawing-status,
+.control-panel #save-status,
+.mobile-fill-tip{color:#453e35}
+
+/* スマホの道具を一組にし、完成画像は編集画面を隠して大きく確認します。 */
+@media(max-width:959px){
+  .control-panel .tool-row{grid-template-columns:minmax(0,1fr) auto}
+  .control-panel .tool-row #undo-tool{grid-column:auto;min-width:116px;font-size:15px}
+  #mobile-review{position:fixed;inset:0;width:100vw;height:100dvh;max-width:none;max-height:none;margin:0;padding:12px 14px calc(12px + env(safe-area-inset-bottom));border:0;background:var(--paper);color:var(--ink);overflow:auto}
+  #mobile-review[open]{display:flex;flex-direction:column;gap:8px}
+  #mobile-review::backdrop{background:var(--paper)}
+  #mobile-review h2{font-size:22px;line-height:1.3;margin:0;text-align:center}
+  #mobile-review #inline-saved-image{flex:1;min-height:32dvh;overflow:hidden}
+  #mobile-review #saved-image{width:100%;height:100%;max-height:none;object-fit:contain;margin:0;background:#fff}
+  #mobile-review .review-help{font-size:15px;line-height:1.45;margin:0;color:#453e35}
+  #mobile-review #share-saved-image{width:100%;min-height:48px;margin:0;justify-content:center;font-size:18px}
+  #mobile-review .review-actions{display:grid;grid-template-columns:1fr;gap:8px}
+  #mobile-review .review-actions button{width:100%;min-height:48px;justify-content:center;font-size:18px;text-align:center}
+}
+
+/* スマホでは背景を横並びにし、完成画像の直下に保存と編集の操作を置きます。 */
+@media(max-width:959px){
+  .control-panel .background-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .control-panel .background-row button{width:auto;min-width:0;min-height:48px;padding:6px;font-size:15px;gap:5px;line-height:1.3}
+  .control-panel .background-row .paper-preview{width:22px;height:25px;flex-shrink:0}
+  #mobile-review .review-actions{grid-template-columns:repeat(2,minmax(0,1fr))}
+  #mobile-review .review-actions button{min-width:0;padding:6px;font-size:17px}
+  #mobile-review #review-finish{width:100%;min-height:48px;justify-content:center;font-size:17px}
+  #mobile-review #review-status:empty{display:none}
+}
+
+/* スマホの用紙選択を揃え、画像の外周だけに確認用の枠を付けます。 */
+@media(max-width:959px){
+  .control-panel .paper-controls .setting-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .control-panel .paper-controls .setting-row button{width:100%;min-width:0;min-height:48px;padding:6px;font-size:15px;line-height:1.3}
+  #mobile-review #inline-saved-image{display:flex;align-items:center;justify-content:center}
+  #mobile-review #saved-image{width:auto;height:auto;max-width:100%;max-height:100%;border:1px solid #b8b8b8}
+}
